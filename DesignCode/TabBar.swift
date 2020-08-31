@@ -30,7 +30,6 @@ struct TabBar: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBar()
-            .environment(\.colorScheme, .dark)
 //            .previewDevice("iPhone 11 Pro Max")
     }
 }
